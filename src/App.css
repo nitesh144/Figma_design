@@ -4,5 +4,21 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #1a1a1a; /* Dark background color */
+  background: #1a1a1a; /* Dark background color */
+}
+
+
+.bg-custom {
+  background: linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%),
+              linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+}
+
+.custom-hr {
+  width: 80%; /* Adjust this value to control how much the line is cut off */
+  margin: 0 auto; /* Center the line */
+  height: 5px; /* Set the height of the line */
+  border: none; /* Remove the default border */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
